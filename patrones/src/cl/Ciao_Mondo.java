@@ -10,5 +10,24 @@ package cl;
  * @author jorge
  */
 public class Ciao_Mondo {
+    private String messaggio;
+    
+    public Ciao_Mondo()
+    {
+        this.messaggio = "ciao_mondo";
+    }
+
+    /**
+     * @return the messaggio
+     */
+    public String getMessaggio() {
+        return messaggio;
+    }
+
+    @Override
+    public String toString() {
+        return "Ciao_Mondo{" + "messaggio=" + messaggio + '}';
+    }
+    
     
 }
