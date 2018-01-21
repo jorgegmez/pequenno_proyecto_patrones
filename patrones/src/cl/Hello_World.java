@@ -10,5 +10,24 @@ package cl;
  * @author jorge
  */
 public class Hello_World {
+    private String message;
+    
+    public Hello_World()
+    {
+        this.message = "hello_world";
+    }
+
+    /**
+     * @return the message
+     */
+    public String getMessage() {
+        return message;
+    }
+
+    @Override
+    public String toString() {
+        return "Hello_World{" + "message=" + message + '}';
+    }
+    
     
 }
